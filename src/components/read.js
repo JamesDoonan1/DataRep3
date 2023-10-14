@@ -1,7 +1,10 @@
+// Import the Books component from a local file named "books".
 import Books from "./books";
 
+// This is a functional component named Read.
 function Read() {
     //data associated with read component
+    // Define an array called 'data' containing information about books.
     const data = [
         {
             "title": "Learn Git in a Month of Lunches",
@@ -37,6 +40,7 @@ function Read() {
             "categories": []
         }
     ];
+    // Render content within the Read component.
     return (
         <div>
             <h3>Hello from READ component</h3>
