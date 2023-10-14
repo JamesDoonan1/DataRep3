@@ -1,9 +1,11 @@
 import Card from 'react-bootstrap/Card';
-
+// This is a functional component named BookItem that takes a single prop called 'myBook'.
 function BookItem(props) {
     return (
         <div>
+            {/* Create a Card component from react-bootstrap to display book information. */}
             <Card>
+                {/* Display the book title in the Card Header. */}
                 <Card.Header>{props.myBook.title}</Card.Header>
                 <Card.Body>
                     <blockquote className="blockquote mb-0">
